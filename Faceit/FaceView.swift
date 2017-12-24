@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FaceView.swift
 //  Faceit
 //
 //  Created by Adnan Ahmed on 2017-12-24.
@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceView: UIView {
 
 
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
 
 }
-
