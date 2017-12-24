@@ -13,6 +13,7 @@
 		41D42B0F1FEFBF1900B1CD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D42B0E1FEFBF1900B1CD6E /* Assets.xcassets */; };
 		41D42B121FEFBF1900B1CD6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D42B101FEFBF1900B1CD6E /* LaunchScreen.storyboard */; };
 		41D42B1B1FEFC0A600B1CD6E /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D42B1A1FEFC0A600B1CD6E /* FaceView.swift */; };
+		41D42B1D1FEFC3E700B1CD6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D42B1C1FEFC3E700B1CD6E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41D42B111FEFBF1900B1CD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D42B131FEFBF1900B1CD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D42B1A1FEFC0A600B1CD6E /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		41D42B1C1FEFC3E700B1CD6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		41D42AFB1FEFBF1800B1CD6E = {
 			isa = PBXGroup;
 			children = (
+				41D42B1C1FEFC3E700B1CD6E /* Default-568h@2x.png */,
 				41D42B061FEFBF1900B1CD6E /* Faceit */,
 				41D42B051FEFBF1900B1CD6E /* Products */,
 			);
@@ -56,6 +59,7 @@
 		41D42B061FEFBF1900B1CD6E /* Faceit */ = {
 			isa = PBXGroup;
 			children = (
+				41D42B131FEFBF1900B1CD6E /* Info.plist */,
 				41D42B091FEFBF1900B1CD6E /* ViewController.swift */,
 				41D42B1A1FEFC0A600B1CD6E /* FaceView.swift */,
 				41D42B0B1FEFBF1900B1CD6E /* Main.storyboard */,
@@ -70,7 +74,6 @@
 				41D42B071FEFBF1900B1CD6E /* AppDelegate.swift */,
 				41D42B0E1FEFBF1900B1CD6E /* Assets.xcassets */,
 				41D42B101FEFBF1900B1CD6E /* LaunchScreen.storyboard */,
-				41D42B131FEFBF1900B1CD6E /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D42B121FEFBF1900B1CD6E /* LaunchScreen.storyboard in Resources */,
+				41D42B1D1FEFC3E700B1CD6E /* Default-568h@2x.png in Resources */,
 				41D42B0F1FEFBF1900B1CD6E /* Assets.xcassets in Resources */,
 				41D42B0D1FEFBF1900B1CD6E /* Main.storyboard in Resources */,
 			);
