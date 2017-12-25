@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var faceView: FaceView! {
         didSet {
+            let handler = #selector(FaceView.changeScale(byReactingTo:))
+            let pinchRecognizer = UIPinchGestureRecognizer(target: faceView, action: handler)
+            faceView.addGestureRecognizer(pinchRecognizer)
             updateUI()
         }
     }
@@ -32,7 +35,7 @@ class ViewController: UIViewController {
             faceView?.eyesOpen = false
         }
         faceView?.mouthCurvature = mouthCurvatures[expression.mouth] ?? 0.0
-    } 
+    }
     
     private let mouthCurvatures = [
         FacialExpression.Mouth.grin: 0.5,
